@@ -1,0 +1,24 @@
+[
+  {
+    "dates": "October 2023 · Now ",
+    "role": "Freelancer Web Developer",
+    "company": "-",
+    "description": "I am currently working as a freelancer web developer and developing websites for my clients.",
+    "logo": "/assets/images/experiences/logo.png"
+  },
+  {
+    "dates": "April 2022 · October 2023",
+    "role": "Website Maintenance - Api Management",
+    "company": "Welsoft Technology, India",
+    "description": "In this role I was responsible for maintaining and fixing APIs on a news application as well as creating secure connection for Apis",
+    "logo": "/assets/images/experiences/logo.png"
+  },
+  
+  {
+    "dates": "April 2021 · April 2022 ",
+    "role": "Junior Web Developer",
+    "company": "Motiveweb",
+    "description": "In this role I was responsible for backend development of the website.",
+    "logo": "/assets/images/experiences/logo.png"
+  }
+]

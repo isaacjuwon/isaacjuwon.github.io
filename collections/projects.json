@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Vtu Website - Paid",
+    "description": "Secure and Modern VTU website built-in modern technologies.",
+    "image": "/assets/images/projects/vtu.png",
+    "url": "http://paid-project"
+  },
+  {
+    "name": "Affiliate Marketing Website - Paid",
+    "description": "An affiliate marketing website built-in bootstrap, equipped with payment system and secured affiliate tracking.",
+    "image": "/assets/images/projects/moneycrib.png",
+    "url": "https://moneycrib.com.ng"
+  },
+
+  
+  {
+    "name": "Portofolio Site",
+    "description": "Made with Static.",
+    "image": "/assets/images/projects/portofolio-site.png",
+    "url": "https://github.com/zicdevcode/isaacjuwon.github.io"
+  }
+]
