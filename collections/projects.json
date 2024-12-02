@@ -1,9 +1,19 @@
 [
   {
+    "name": "Slimy Url Shortner",
+    "description": "Secure and Modern Privacy first Url Shortner.",
+    "image": "/assets/images/projects/url-shortner.png",
+    "url": "http://gitub.com/isaacjuwon/slimy-shortner"
+  },
+  {
     "name": "Vtu Website - Paid",
     "description": "Secure and Modern VTU website built-in modern technologies.",
     "image": "/assets/images/projects/vtu2.png",
-    "url": "http://paid-project"
+    "url": "http://paid-{
+    "name": "Vtu Website - Paid",
+    "description": " Modern VTU website built-in modern technologies( Tall Stack).",
+    "image": "/assets/images/projects/vtu-main.png",
+    "url": ""
   },
   {
     "name": "Affiliate Marketing Website - Paid",
