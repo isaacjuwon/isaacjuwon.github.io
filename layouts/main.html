@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,58 +7,22 @@
 
     <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script>
-        if (typeof (Storage) !== "undefined") {
-            if (localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true') {
+        if (typeof(Storage) !== "undefined") {
+            if(localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true'){
                 document.documentElement.classList.add('dark');
             }
         }
     </script>
-
+    
     <style>
-        .prose img {
+        .prose img{
             border-radius: 20px;
         }
-
-        @media (prefers-color-scheme: dark) {
-            ::-webkit-scrollbar {
-                width: 5px;
-                height: 5px;
-                background-color: #0a0a0a;
-            }
-
-            ::-webkit-scrollbar-thumb {
-                background-color: #f4f4f5;
-                border-radius: 5px;
-            }
-
-            ::-webkit-scrollbar-thumb:hover {
-                background-color: #747474;
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            ::-webkit-scrollbar {
-                width: 5px;
-                height: 5px;
-                background-color: #f4f4f5;
-            }
-
-            ::-webkit-scrollbar-thumb {
-                background-color: #404040;
-                border-radius: 5px;
-            }
-
-            ::-webkit-scrollbar-thumb:hover {
-                background-color: #747474;
-            }
-        }
     </style>
-    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"> -->
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
     <script src="//unpkg.com/alpinejs" defer></script>
     {tailwindcss}
 </head>
-
 <body class="antialiased bg-white dark:bg-neutral-950">
     <include src="square-lines.html"></include>
     <include src="header.html"></include>
@@ -67,5 +30,4 @@
     <include src="footer.html"></include>
     <script src="/assets/js/main.js"></script>
 </body>
-
 </html>
